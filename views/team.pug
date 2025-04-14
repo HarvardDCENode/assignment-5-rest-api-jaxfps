@@ -1,0 +1,34 @@
+doctype html
+html
+    head
+        title Team Information
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        style.
+            .navigation {
+                background-color: #f1f1f1;
+                padding: 15px;
+                text-align: center;
+            }
+            .navigation a {
+                padding: 10px;
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+            }
+            .navigation a:hover {
+                background-color: #ddd;
+            }
+    body
+        div(class='navigation')
+            a(href='/') Home
+            a(href='/listplayers') PlayerList 
+            a(href='/addplayer') Add Player
+        header
+            h1 Team #{teamName}
+        main
+            section
+                h2 Team Members
+                p (eventually a list with players will be here)
+            section
+                h2 Team Achievements
+                p (eventually a list with achievements will be here)

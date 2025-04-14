@@ -1,0 +1,31 @@
+html(lang="en")
+    head
+        style(type="text/css").
+            .navigation{
+                    background-color: #f1f1f1;
+                    padding: 15px;
+                    text-align: center;
+            }
+            .navigation a{
+                    padding: 10px;
+                    text-decoration: none;
+                    color: black;
+                    display: inline-block;
+            }
+            .navigation a:hover{
+                    background-color: #ddd;
+            }
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title My Express App
+        link(rel="stylesheet" href="styles.css")
+    body
+        nav.navigation
+            a(href="/") Home
+            a(href="/listplayers") Player List
+            a(href="/addplayer") Add Player
+        header
+            h1 Welcome to my player and team database outline
+        main
+            p This will eventually be a database of players, teams, achievements, and statistics.
+            p For now it has minimal functionality and only allows you to add/edit players and their team, view a list and delete players, and click on them to view their profile (which only shows what team they're on).
