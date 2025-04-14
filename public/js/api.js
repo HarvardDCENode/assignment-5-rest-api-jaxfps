@@ -1,6 +1,6 @@
 (function(){
 
-    const baseURL = 'http://http://45.55.59.58:8080'; //  for development, it's http://localhost:3030
+    const baseURL = 'http://45.55.59.58:8080'; //  for development, it's http://localhost:3030
  
     async function testAPIs(){
      // test list first
